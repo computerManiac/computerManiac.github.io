@@ -31,18 +31,34 @@
       </section>
 
       {% if page.show_posts %}
-        <p>
-            <span class="title-post">Swarm Intelligence introduction</span>
+        {% assign post_length = site.data.posts.size %}
+        {% assign offset_value = site.data.posts.size | minus:2 %}
+        {% for post in site.data.posts reversed offset: offset_value %}
+                <p>
+                    <span class="title-post">{{ post.title }}</span>
+                    <br>
+                    <span class="title-date">{{ post.date }}</span>
+                    <blockquote style="text-align: justify;">
+                        {{ post.summary }}
+                        <a href="{{ post.link }}">Read more</a>
+                    </blockquote>
+                </p>
             <br>
-            <span class="title-date">2020-10-01 12:12pm</span>
-            <blockquote style="text-align: justify;">
-                In this post we discuss the key concept behind Swarm Intelligence and learn how nature inspired Computer Scientists
-                and programmers to develop artificial systems that mimic social creatures. We build a basic intuition about some concepts
-                that are common in all algorithms that come under this discipline.
-                <a href="#">Read more</a>
-            </blockquote>
-        </p>
+        {% endfor %}
+
+        <br />
+
+        {% if post_length > 2 %}
+            <a href="#" style="text-decoration: none;">See all posts</a>
+        {% endif %}
+
       {% endif %}
+    </div>
+
+    <br>
+
+    <div class="container">
+        {% include footer.md %}
     </div>
 
     {% if site.google_analytics %}

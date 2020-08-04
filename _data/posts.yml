@@ -1,0 +1,19 @@
+- title: Swarm Intelligence introduction
+  date: 2020-08-01 12:12pm
+  link: /
+  summary: 'In this post we discuss the key concept behind Swarm Intelligence and learn how nature inspired Computer Scientists and programmers 
+            to develop artificial systems that mimic social creatures. We build a basic intuition about some concepts that are common in all algorithms 
+            that come under this discipline.'
+- title: Ant Colony Optimization
+  date: 2020-08-02 10:54am
+  link: /
+  summary: 'In this post we introduce our first Swarm Intelligence algorithm called Ant Colony Optimization (ACO). First we learn how ACO is modelled
+            then we dive deeper and understand how it works. We look at the pseudocode and understand how to implement ACO in any language. Finally we
+            discuss the advantages and shortcomings of ACO.'
+- title: Particle Swarm Optimization
+  date: 2020-08-04 11:04am
+  link: /
+  summary: 'In this post we introduce our second Swarm Intelligence algorithm called Particle Swarm Optimization (PSO). First we learn how PSO is modelled
+            then we dive deeper and understand how it works. We look at the pseudocode and understand how to implement PSO in any language. Finally we
+            discuss various applications of PSO.'
+  
