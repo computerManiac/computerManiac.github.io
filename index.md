@@ -7,3 +7,7 @@ various fields including Machine Learning, function optimizations etc.
 <br/>
 
 ### What is Swarm Intelligence ?
+
+Swarm Intelligence is a discipline under Computer Science that deals with natural and artificial systems which are composed of many inviduals
+that coordinate together to achieve complex tasks using **self-organization** and **division of labour**. Most algorithms that come under this
+discipline were inspired by the social behaviour of animals and other organisms, particularly by the behaviour of social insects like ants, bees etc.
