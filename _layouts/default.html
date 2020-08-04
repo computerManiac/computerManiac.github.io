@@ -29,6 +29,20 @@
       <section id="main_content" style="text-align: justify;">
         {{ content }}
       </section>
+
+      {% if page.show_posts %}
+        <p>
+            <span class="title-post">Swarm Intelligence introduction</span>
+            <br>
+            <span class="title-date">2020-10-01 12:12pm</span>
+            <blockquote style="text-align: justify;">
+                In this post we discuss the key concept behind Swarm Intelligence and learn how nature inspired Computer Scientists
+                and programmers to develop artificial systems that mimic social creatures. We build a basic intuition about some concepts
+                that are common in all algorithms that come under this discipline.
+                <a href="#">Read more</a>
+            </blockquote>
+        </p>
+      {% endif %}
     </div>
 
     {% if site.google_analytics %}
