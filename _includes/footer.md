@@ -1,1 +1,3 @@
-Made with :heart: by [Fahim Karim](https://google.com)
+
+swarmintelligence.ml      | [![Github Logo](../assets/images/github.png "Github")](http://github.com/computerManiac) <sup>[Github](http://github.com/computerManiac)</sup>          | Made with <sub>:heart:</sub> by [Fahim Karim](http://google.com)
+                          | [![Linkedin Logo](../assets/images/001-linkedin.png "Linkedin")](http://linkedin.com/in/fahim-1) <sup>[Linkedin](http://linkedin.com/in/fahim-1)</sup>   | 

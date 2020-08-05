@@ -55,8 +55,14 @@
       {% endif %}
     </div>
 
-    
-    {% include footer.html %}
+
+    {% capture footer_markdown %}
+    {% include footer.md %}
+    {% endcapture %}
+
+    {% assign final_markdown = footer_markdown | markdownify %}
+
+    {% include footer.html content=final_markdown %}
 
     {% if site.google_analytics %}
       <script>
