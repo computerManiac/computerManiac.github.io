@@ -38,10 +38,19 @@
                     <span class="title-post">{{ post.title }}</span>
                     <br>
                     <span class="title-date">{{ post.date }}</span>
-                    <blockquote style="text-align: justify;">
-                        {{ post.summary }}
-                        <a href="{{ post.link }}">Read more</a>
-                    </blockquote>
+                    <table>
+                      <tr>
+                        <td>
+                          <img src="{{post.image}}" style="width: 16vh; height: 16vh;border-radius: 50%;">
+                        </td>
+                        <td>
+                          <blockquote style="text-align: justify;">
+                          {{ post.summary }}
+                          <a href="{{ post.link }}">Read more</a>
+                          </blockquote>
+                        </td>
+                      </tr>
+                    </table>
                 </p>
             <br>
         {% endfor %}
